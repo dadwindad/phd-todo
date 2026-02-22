@@ -1,0 +1,12 @@
+# Task: Create To-Do Webapp
+
+- [x] Project Initialization
+- [x] UI Design (CSS)
+- [x] Core Functionality (JS)
+- [x] Premium Enhancements (Animations, Dark Mode)
+- [x] Verification and Testing
+- [x] Deadline Feature Implementation
+    - [x] Update UI for Deadline Input
+    - [x] Update CSS for Deadline Display
+    - [x] Update JS for Deadline Logic
+    - [x] Verify Deadline Functionality

@@ -1,0 +1,42 @@
+# To-Do Webapp Implementation Plan
+
+Create a premium, modern to-do list web application using Vanilla HTML, CSS, and JS. Now adding deadline support.
+
+## Proposed Changes
+
+### [Web App]
+Create a responsive and visually stunning single-page application.
+
+#### [NEW] [index.html](file:///c:/Users/HoMeW/Desktop/todo/index.html)
+- Semantic HTML5 structure.
+- SEO meta tags.
+- Responsive design.
+- Added date input for deadlines.
+
+#### [NEW] [style.css](file:///c:/Users/HoMeW/Desktop/todo/style.css)
+- Modern typography (Inter font).
+- Dark mode by default with glassmorphism effects.
+- Smooth transitions and hover animations.
+- Custom scrollbar and premium color palette (HSL).
+- Styled deadline tags and input.
+
+#### [NEW] [script.js](file:///c:/Users/HoMeW/Desktop/todo/script.js)
+- Core logic: Add, Delete, Toggle Completion.
+- Persistence using `localStorage`.
+- Animations for adding/removing items.
+- Deadline handling and display formatting.
+
+## Verification Plan
+
+### Automated Tests
+- N/A (Manual verification via browser).
+
+### Manual Verification
+1. Open [index.html](file:///c:/Users/HoMeW/Desktop/todo/index.html) in the browser.
+2. Add a few tasks.
+3. Mark tasks as complete.
+4. Delete a task.
+5. Refresh the page to verify persistence.
+6. Verify responsive layout on different screen sizes.
+7. Add a task with a deadline and verify display.
+8. Verify tasks without deadlines still display correctly.

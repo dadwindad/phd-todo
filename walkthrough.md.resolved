@@ -1,0 +1,38 @@
+# To-Do Webapp Walkthrough
+
+I have successfully built a premium, modern To-Do web application with a glassmorphism design, dark mode, and deadline tracking.
+
+## Changes Made
+
+### UI/UX Design
+- Implemented a **dark mode** interface with a deep ocean blue background.
+- Added **animated background blobs** for a dynamic and premium feel.
+- Used **Glassmorphism** for the main container (blur and translucency).
+- Integrated **Inter font** for modern typography.
+- Designed custom checkboxes and interactive hover states.
+
+### Core Functionality
+- **Task Management**: Add tasks, delete tasks, and toggle completion status.
+- **Deadline Support**: Integrated a date picker for adding deadlines to tasks.
+- **Visual Tags**: Added styled deadline tags with calendar icons that appear only when a date is set.
+- **Persistence**: Data is saved to `localStorage`, so your tasks and deadlines remain even after refreshing the page.
+- **Filtering**: Easily switch between 'All', 'Active', and 'Completed' tasks.
+- **Auto-date**: Displays the current date dynamically.
+- **Clear Completed**: One-click cleanup of finished tasks.
+
+## Verification Results
+
+### Automated Verification
+I used a browser subagent to verify the application's functionality.
+
+````carousel
+![Deadline Feature](file:///C:/Users/HoMeW/.gemini/antigravity/brain/e7311112-bc01-4161-ab6b-e50d01b5749d/todo_with_deadlines_1771732213757.png)
+<!-- slide -->
+![Verification Recording](file:///C:/Users/HoMeW/.gemini/antigravity/brain/e7311112-bc01-4161-ab6b-e50d01b5749d/verify_deadline_feature_1771732156260.webp)
+````
+
+### Manual Verification Steps
+1. **Adding Tasks**: Verified that input works smoothly with mouse or Enter key.
+2. **Deadline Tracking**: Verified that dates are correctly associated with tasks and display a tag.
+3. **Persistence**: Verified that tasks and deadlines persist across page refreshes.
+4. **Responsive Design**: Verified that the app adapts beautifully to different screen sizes.

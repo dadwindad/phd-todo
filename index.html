@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium To-Do App</title>
+    <meta name="description" content="A premium, modern to-do application with dark mode and glassmorphism design.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="container">
+        <header>
+            <h1>My Tasks</h1>
+            <p id="current-date"></p>
+        </header>
+
+        <section class="input-section">
+            <div class="input-wrapper">
+                <input type="text" id="task-input" placeholder="What needs to be done?" aria-label="New task input">
+                <input type="date" id="deadline-input" aria-label="Task deadline">
+            </div>
+            <button id="add-btn" aria-label="Add task">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </section>
+
+        <section class="filter-section">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="active">Active</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </section>
+
+        <ul id="task-list" class="task-list">
+            <!-- Tasks will be injected here -->
+        </ul>
+
+        <footer>
+            <span id="items-left">0 items left</span>
+            <button id="clear-completed">Clear Completed</button>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
